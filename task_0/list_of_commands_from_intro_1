@@ -1,0 +1,28 @@
+
+# shell 
+ls
+cat
+cp
+mv
+diff
+rm
+grep
+cal
+chown, chmod
+
+# directories
+pwd
+cd
+mkdir, rmdir
+
+# disks and filesystems
+mount
+umount
+
+# processes
+ps
+kill
+kill -9
+top
+
+

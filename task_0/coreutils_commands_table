@@ -1,0 +1,24 @@
+
+
+* Output of entire files:: cat, tac, nl, od, base32, base64                       
+
+
+* Output of parts of files:: head, tail, split, csplit
+
+
+* Basic operations:: cp, dd, install, mv, rm, shred
+
+
+* Changing file attributes:: chown, chgrp, chmod, touch
+
+
+* Disk usage:: df, du, stat, sync, truncate
+
+
+* User information:: id, logname, whoami, groups, users, who
+
+
+* System context:: date, arch, nproc, uname, hostname, hostid, uptime
+
+
+

@@ -1,0 +1,12 @@
+10. With man command find short description for devices below:
+urandom (4), zero (4), null (4), full (4), loop (4), sd (4)
+
+urandom (4) - kernel random number source devices
+zero (4) - data sink
+null (4) - data sink
+full (4) - always full device
+loop (4) - loop devices
+sd (4) - driver for SCSI disk drives
+
+ 
+

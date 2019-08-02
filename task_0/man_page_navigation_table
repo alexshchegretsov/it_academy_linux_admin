@@ -1,0 +1,27 @@
+
+
+Go to first line in file - alt + \    
+
+
+Go to last line in file - alt + /
+
+
+Forward  one window - f
+
+
+Forward  one line - e
+
+
+Backward one line - y
+
+
+Search forward for matching line - n
+
+
+Search backward for matching line - N
+
+
+Repeat previous search - ESC + n
+
+
+Repeat previous search in reverse direction - ESC + N
