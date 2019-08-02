@@ -1,0 +1,9 @@
+/dev/null: character special (1/3)
+/dev/zero: character special (1/5)
+/dev/sda: block special (8/0)
+/dev/tty: character special (5/0)
+/root: directory
+/etc/passwd: ASCII text
+/proc/mounts: empty
+/bin/ls: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/l, for GNU/Linux 3.2.0, BuildID[sha1]=9567f9a28e66f4d7ec4baf31cfbf68d0410f0ae6, stripped
+/bin/zcat: POSIX shell script, ASCII text executable

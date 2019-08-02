@@ -1,0 +1,25 @@
+# /sys/  
+This  is  a mount point for the sysfs filesystem, which provides information about the kernel like /proc, but better  structured,
+following the formalism of kobject infrastructure.
+
+# /root/ 
+home directory for root user.
+
+# /snap/
+Directory is, by default, where the files and folders from installed snap packages appear on your system.
+
+# /lib/
+This  directory should hold those shared libraries that are necessary to boot the system and to run the commands  in  the  root
+filesystem.
+
+# /home/
+On  machines  with home directories for users, these are usually beneath this directory, directly or not.  The structure of  this
+directory depends on local administration decisions (optional).
+
+# /tmp/
+This  directory  contains  temporary  files which may be deleted with no notice, such as by a regular job or at system boot up.
+ 
+# /var/
+This directory contains files which may change in size, such as spool and log files.
+
+
