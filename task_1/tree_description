@@ -10,7 +10,7 @@ Directory is, by default, where the files and folders from installed snap packag
 
 # /lib/
 This  directory should hold those shared libraries that are necessary to boot the system and to run the commands  in  the  root
-filesystem.
+filesystem. Directory contains important libraries and kernel modules.
 
 # /home/
 On  machines  with home directories for users, these are usually beneath this directory, directly or not.  The structure of  this
