@@ -1,0 +1,11 @@
+#  Selected lines are those not matching any of the specified patterns.
+-v
+
+# Recursively search subdirectories listed.
+-r or -R
+
+# Prints only the matching part of the lines.
+-o
+
+# Print num lines of leading and trailing context surrounding each match.
+-C
