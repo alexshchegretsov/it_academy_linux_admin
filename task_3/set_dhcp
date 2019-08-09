@@ -1,0 +1,54 @@
+1. Internal network on two VM1 and VM2
+2. Set VM1
+
+apt-get install isc-dhcp-server
+
+# sudo nano /etc/netplan/....yaml
+
+network
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    enp0s3(youriface):
+     dhcp4: no
+     addresses: [set ip address/24]
+     gateway4: set gateway
+
+# sudo netplan apply
+
+# sudo nano /etc/dhcp/dhcpd.conf
+
+# all values without []
+
+authoritative;
+subnet [set subnet] netmask [set mask] {
+    range [from ip address] [to ip address];
+    option subnet-mask [set mask];
+    option routers [set hateway];
+    option broadcast-address [set broadcast];
+    default-lease-time 600;
+    max-lease-time 7200;
+}
+
+# sudo nano /etc/default/isc-dhcp-server
+
+INTERFACESv4="YOURIFACE"
+
+
+3. Set VM2
+
+# sudo nano /etc/netplan/....yaml
+
+
+network
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    enp0s3(youriface):
+     dhcp4: true
+
+# sudo netplan apply
+
+4. # service isc-dhcp-server start
+
+
